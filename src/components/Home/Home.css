@@ -1,0 +1,38 @@
+html {
+    background-image: url('https://cdn3.vectorstock.com/i/1000x1000/49/02/seamless-pattern-question-marks-quiz-background-vector-29564902.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.quizoo {
+    color: darkslateblue;
+
+    text-align: center;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.quizoo h1 {
+    background-color: rgb(193, 248, 229);
+    border-radius: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.quizoo button {
+    height: 3rem;
+    width: 12rem;
+    background-color: darkcyan;
+    border: none;
+}
+
+.quizoo a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+
+}

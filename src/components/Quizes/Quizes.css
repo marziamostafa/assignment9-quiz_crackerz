@@ -1,0 +1,15 @@
+.single-quiz {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.single-quiz img {
+    height: 12rem;
+}
+
+.single-quiz-start {
+    display: flex;
+}

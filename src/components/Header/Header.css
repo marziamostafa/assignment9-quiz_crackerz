@@ -1,0 +1,20 @@
+.header {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header a:hover {
+    background-color: skyblue;
+}
