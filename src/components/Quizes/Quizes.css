@@ -1,15 +1,39 @@
 .single-quiz {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     align-items: center;
-    background-color: azure;
+    background-color: rgb(34, 137, 141);
 }
 
 .single-quiz img {
-    height: 12rem;
+    height: 17rem;
 }
 
 .single-quiz-start {
     display: flex;
+    font-size: large;
+    font-weight: 500;
+    justify-content: space-around;
+    background-color: cadetblue;
+
+}
+
+.single-quiz-start button {
+    font-size: large;
+    font-weight: 600;
+    background-color: rgb(204, 104, 104);
+    border: none;
+    width: 8rem;
+    border-radius: 15px;
+
+}
+
+.single-quiz-start a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 688px) {
+    .single-quiz img {
+        height: 16rem;
+    }
+
 }
