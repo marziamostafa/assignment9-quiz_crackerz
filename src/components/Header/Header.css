@@ -23,11 +23,14 @@
     .header {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1rem;
+
     }
 
     .header nav {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+
 
     }
 }
