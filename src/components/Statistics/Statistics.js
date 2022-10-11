@@ -16,8 +16,8 @@ const Statistics = () => {
     ]
     return (
         <div>
-            <h2 className='text-4xl font-bold'>Statistics:{allData.length}</h2>
-            <div className='bg-white'>
+            <h2 className='text-4xl font-bold py-5'>Statistics:{allData.length}</h2>
+            <div className='bg-white flex justify-center'>
                 <LineChart height={300} width={300} data={allData}>
                     <Line type="monotone" dataKey={allData.total} stroke="#8884d8" activeDot={{ r: 8 }} />
                     <XAxis dataKey="name" />
