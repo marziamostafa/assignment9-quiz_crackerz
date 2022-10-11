@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Questions = ({ questionx }) => {
     const { correctAnswer, id, options, question } = questionx;
 
-    const notify = () => toast(`${correctAnswer}`, {
+    const notify = () => toast(`Correct ans:${correctAnswer}`, {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,
