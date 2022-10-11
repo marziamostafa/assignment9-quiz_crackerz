@@ -9,7 +9,7 @@ const QuizPage = () => {
     console.log(id)
     return (
         <div>
-            <h1>Quiz Page</h1>
+            <h1 className='text-4xl py-4'>Quiz Page</h1>
             {
                 questions.map(questionx => <Questions key={questionx.id}
                     questionx={questionx}></Questions>)
