@@ -8,8 +8,8 @@ const Quiz = () => {
     // console.log(quizes);
     return (
         <div>
-            <h1>Total Quizes:{quizes.length} </h1>
-            <div className='quizes'>
+            <h1 className='text-4xl font-semibold py-2'>Total Quizes:{quizes.length} </h1>
+            <div className='quizes mt-4 flex-inline'>
                 {
                     quizes.map(quiz => <Quizes key={quiz.id} quiz={quiz}></Quizes>)
                 }

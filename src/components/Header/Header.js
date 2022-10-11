@@ -4,9 +4,9 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='header'>
-            <h1>Quizooo</h1>
-            <nav>
+        <div className='header py-2'>
+            <h1 className='text-5xl font-bold '>Quizooo</h1>
+            <nav className='grid lg:grid-cols-4'>
                 <NavLink className={({ isActive }) => isActive ? 'active' : undefined} to='/home'>Home</NavLink>
                 <NavLink to='/quiz'>Quiz</NavLink>
                 <NavLink to='/statistics'>Statictics</NavLink>

@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from '../Header/Header';
+import './Blog.css'
 
 const Blog = () => {
     return (
-        <div>
+        <div className='react-qst'>
 
             <h2>Blog</h2>
             <div>

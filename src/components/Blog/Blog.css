@@ -1,0 +1,25 @@
+.react-qst {}
+
+.react-qst div {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: start;
+    margin-top: 2rem;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 688px) {
+    .react-qst div {
+
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+
+        margin-top: 2rem;
+
+    }
+}
