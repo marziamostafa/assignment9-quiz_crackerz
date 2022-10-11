@@ -3,10 +3,10 @@ import { useLoaderData } from 'react-router-dom';
 import Questions from '../Questions/Questions';
 
 const QuizPage = () => {
-    const quizPage = useLoaderData().data
+    const quizPage = useLoaderData().data;
     const { id, questions } = quizPage;
 
-    console.log(id)
+    // console.log(questions);
     return (
         <div>
             <h1 className='text-4xl py-4'>Quiz Page</h1>

@@ -1,11 +1,11 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import Header from '../Header/Header';
+
 import Quizes from '../Quizes/Quizes';
 import './Quiz.css'
 const Quiz = () => {
     const quizes = useLoaderData().data;
-    // console.log(quizes);
+    console.log(quizes);
     return (
         <div>
             <h1 className='text-4xl font-semibold py-2'>Total Quizes:{quizes.length} </h1>

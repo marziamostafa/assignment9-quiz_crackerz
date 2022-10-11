@@ -20,16 +20,18 @@ const Questions = ({ questionx }) => {
     });
 
     return (
-        <div className='question p-2 '>
+        <div className='question p-2 bg-blue-100'>
             <div className='m-2'>
                 <h4 className='py-2'>{question}</h4>
 
                 <div className='options grid grid-cols-2 gap-2 mt-2'>
-                    <p><input type="radio" name={id} id="" />{options[0]}</p>
 
-                    <p><input type="radio" name={id} id="" />{options[1]}</p>
-                    <p><input type="radio" name={id} id="" />{options[2]}</p>
-                    <p><input type="radio" name={id} id="" />{options[3]}</p>
+                    <p className='text-start pl-2'><input type="radio" name={id} id="radio" />{options[0]}</p>
+
+                    <p className='text-start pl-2'><input type="radio" name={id} id="" />{options[1]}</p>
+                    <p className='text-start pl-2'><input type="radio" name={id} id="" />{options[2]}</p>
+                    <p className='text-start pl-2'><input type="radio" name={id} id="" />{options[3]}</p>
+
                 </div>
             </div>
             <div>
@@ -38,6 +40,7 @@ const Questions = ({ questionx }) => {
 
         </div>
     );
+
 };
 
 export default Questions;
