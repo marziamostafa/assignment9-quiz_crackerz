@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Link, RouterProvider } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Quiz from './components/Quiz/Quiz';
 import Statistics from './components/Statistics/Statistics';
@@ -35,7 +35,7 @@ function App() {
         }
       ]
     },
-    { path: '*', element: <div>This page is not found</div> },
+    { path: '*', element: <div className='text-5xl'>This page is not found 404 <Link to='/home'>Go to home</Link></div> },
   ])
   return (
     <div className="App">

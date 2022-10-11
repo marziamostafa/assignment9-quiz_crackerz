@@ -1,7 +1,7 @@
 
 import { useLoaderData } from 'react-router-dom';
 import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
-import Stat from '../Stat/Stat';
+
 
 
 
@@ -27,12 +27,6 @@ const Statistics = () => {
                     <Line type="monotone" dataKey="total" stroke="#82ca9d" />
                 </LineChart>
             </div>
-            {/* <div>
-                {
-                    allData.map(data => <Stat key={data.id} data={data}></Stat>)
-                }
-
-            </div> */}
 
         </div>
     );

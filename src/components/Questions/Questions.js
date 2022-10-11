@@ -3,12 +3,13 @@ import './Questios.css'
 import { EyeIcon } from '@heroicons/react/24/solid'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Question from '../Question/Question';
 
 
 
 const Questions = ({ questionx }) => {
     const { correctAnswer, id, options, question } = questionx;
-
+    // console.log(options)
     const notify = () => toast(`Correct ans:${correctAnswer}`, {
         position: "top-center",
         autoClose: 5000,
@@ -19,6 +20,9 @@ const Questions = ({ questionx }) => {
         progress: undefined,
     });
 
+
+
+
     return (
         <div className='question p-2 bg-blue-100'>
             <div className='m-2'>
@@ -26,11 +30,18 @@ const Questions = ({ questionx }) => {
 
                 <div className='options grid grid-cols-2 gap-2 mt-2'>
 
-                    <p className='text-start pl-2'><input type="radio" name={id} id="radio" />{options[0]}</p>
+                    {
+                        options.map(option =>
+                            <Question key={id} option={option} correctAnswer={correctAnswer} id={id}></Question>
+                        )
+                    }
 
-                    <p className='text-start pl-2'><input type="radio" name={id} id="" />{options[1]}</p>
-                    <p className='text-start pl-2'><input type="radio" name={id} id="" />{options[2]}</p>
-                    <p className='text-start pl-2'><input type="radio" name={id} id="" />{options[3]}</p>
+
+                    {/* <p className='text-start pl-2'><input onClick={showResult} type="radio" name={id} id="radio" />{options[0]}<ToastContainer></ToastContainer></p>
+
+                    <p onClick={showResult} className='text-start pl-2'><input type="radio" name={id} id="" />{options[1]}</p>
+                    <p onClick={showResult} className='text-start pl-2'><input type="radio" name={id} id="" />{options[2]}</p>
+                    <p onClick={showResult} className='text-start pl-2'><input type="radio" name={id} id="" />{options[3]}</p> */}
 
                 </div>
             </div>

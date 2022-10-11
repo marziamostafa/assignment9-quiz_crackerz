@@ -6,11 +6,12 @@ const Header = () => {
     return (
         <div className='header py-2'>
             <h1 className='text-5xl font-bold '>Quizooo</h1>
-            <nav className='grid lg:grid-cols-4'>
+            <nav className='grid lg:grid-cols-5'>
                 <NavLink className={({ isActive }) => isActive ? 'active' : undefined} to='/home'>Home</NavLink>
                 <NavLink to='/quiz'>Quiz</NavLink>
                 <NavLink to='/statistics'>Statictics</NavLink>
                 <NavLink to='/blog'>Blog</NavLink>
+                <NavLink to='/about'>About</NavLink>
 
             </nav>
 
