@@ -1,10 +1,10 @@
 .header {
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
 }
 
 .header a {
@@ -24,13 +24,14 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 1rem;
+        width: 100%;
 
     }
 
-    .header nav {
+    /* .header nav {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
 
 
-    }
+    } */
 }

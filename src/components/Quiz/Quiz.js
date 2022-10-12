@@ -7,7 +7,7 @@ const Quiz = () => {
     const quizes = useLoaderData().data;
     console.log(quizes);
     return (
-        <div>
+        <div className='quiz-div sm:pb-5'>
             <h1 className='text-4xl font-semibold py-2 '>Total Quizes:{quizes.length} </h1>
             <div className='my-4 py-6 bg-orange-200'>
                 <p className='text-4xl'>You can choose any option you like. And deveelop you skills. Here we are presenting some options for you. </p>

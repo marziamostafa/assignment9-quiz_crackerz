@@ -5,6 +5,10 @@
 }
 
 @media screen and (max-width: 688px) {
+    .quiz-div {
+        padding-bottom: 3rem;
+    }
+
     .quizes {
         display: grid;
 

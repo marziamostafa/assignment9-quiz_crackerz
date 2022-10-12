@@ -4,7 +4,7 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div className='react-qst'>
+        <div className='react-qst pb-5 m-2'>
 
             <h2 className='text-4xl font-bold'>Blog</h2>
             <div>
