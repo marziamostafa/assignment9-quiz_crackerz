@@ -7,6 +7,7 @@ import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import Main from './layout/Main';
 import QuizPage from './components/QuizPage/QuizPage';
+import Error from './components/Error/Error';
 
 function App() {
   const router = createBrowserRouter([
@@ -35,7 +36,7 @@ function App() {
         }
       ]
     },
-    { path: '*', element: <div className='text-5xl mt-6 pt-10'>This page is not found 404. <Link className='back' to='/home'>Go to home</Link></div> },
+    { path: '*', element: <div><Error></Error> <Link className='back' to='/home'>Go to home</Link></div> },
   ])
   return (
     <div className="App">
