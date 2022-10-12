@@ -1,6 +1,6 @@
 html {
-    background-image: url('https://media.gettyimages.com/id/161674909/video/floating-question-marks-background-loop-pastel-blue-hd.jpg?s=640x640&k=20&c=rpU1C_vbiHzHrJFXZUUTjx2pVGWdPca573h1Gcl5AP4=');
-
+    /* background-image: url('https://media.gettyimages.com/id/161674909/video/floating-question-marks-background-loop-pastel-blue-hd.jpg?s=640x640&k=20&c=rpU1C_vbiHzHrJFXZUUTjx2pVGWdPca573h1Gcl5AP4='); */
+    background-color: rgb(169, 224, 242);
     background-repeat: no-repeat;
     background-size: cover;
 

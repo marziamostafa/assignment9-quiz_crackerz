@@ -9,8 +9,8 @@ const Header = () => {
             <nav className='grid grid-cols-5 sm:grid-cols-5 '>
                 <NavLink className={({ isActive }) => isActive ? 'active' : undefined} to='/home'>Home</NavLink>
                 <NavLink to='/quiz'>Quiz</NavLink>
-                <NavLink to='/statistics'>Statictics</NavLink>
-                <NavLink to='/blog'>Blog</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'active' : undefined} to='/statistics'>STAT</NavLink>
+                <NavLink className='blog' to='/blog'>Blog</NavLink>
                 <NavLink to='/about'>About</NavLink>
 
             </nav>
