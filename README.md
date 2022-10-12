@@ -1,7 +1,10 @@
 # b6-quiz-crackerz-marziamostafa
 
+## Link of my website
 
-b6-quiz-crackerz-marziamostafa
+## Things I've done while doing this project
+
+I have tried to make a website based on quizez on diferent topics. I've added html background picture, some routes ,made the website responsive, a rourte for the quiz page. Also added toast bar to show if the clicked answer is right or wrong. Added an icon and a toast on that icon to show the correct ans of that quiz. To add design I have used Tailwind and vanilla css.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
